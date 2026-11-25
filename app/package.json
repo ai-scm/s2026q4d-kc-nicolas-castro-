@@ -1,0 +1,12 @@
+{
+  "name": "hola-mundo-keycloak",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node --env-file=.env server.js" },
+  "engines": { "node": ">=20.19" },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-openid-connect": "^3.4.0"
+  }
+}
